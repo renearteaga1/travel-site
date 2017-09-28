@@ -3,6 +3,11 @@ svgSprite = require('gulp-svg-sprite'),
 rename = require('gulp-rename');
 
 var config = {
+    shape: {
+      spacing: {
+          padding: 1
+      }  
+    },
     mode: {
         css: {
             sprite: 'svg/sprite.svg',
