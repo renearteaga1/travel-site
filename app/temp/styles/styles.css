@@ -662,7 +662,7 @@ a {
 
 @media (min-width: 1010px) {
             .page-section--testimonials.lazyloaded {
-                background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+                background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
                 background-size: cover;
             }
     }
@@ -1007,7 +1007,7 @@ a {
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite. */
 
 .icon {
-        background-image: url('/temp/sprite/css/svg/sprite-e79e95cc.svg');
+        background-image: url('../../temp/sprite/css/svg/sprite-e79e95cc.svg');
      }
 
 .icon--clear-view-escapes {
